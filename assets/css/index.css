@@ -104,25 +104,25 @@
     top: 0;
     left: 50%;
     bottom: 0;
-    width: 2px;
-    background-color: var(--pirate-doubloon); 
-    transform: translateX(-50%);
-    z-index: 1;
-}
-/* 
-Makes the vertical timeline a chain, instead of just a plain line
-.timeline::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    bottom: 0;
     width: 10px; 
     background-image: url('../img/site/chainlink.svg'); 
     background-repeat: repeat-y;
     transform: translateX(-50%);
     z-index: 1;
 } 
+/*
+For solid line instead fo a chain
+.timeline::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--pirate-doubloon); 
+    transform: translateX(-50%);
+    z-index: 1;
+}
 */
 .post {
     position: relative;

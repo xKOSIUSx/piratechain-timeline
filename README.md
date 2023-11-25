@@ -41,7 +41,7 @@ A question gets asked in the ask-jl777 channel in the Komodo Discord, which star
 NOTES
 * The date in YYYY-MM-DD format is required in the frontmatter (between the `---`). Adding HH:MM:SS will allow you to sort multiple milestones on the same date by adding 1 second to each post.
 * Each post should start with the title as a H3 (`###`) directly after the frontmatter.
-* Images shoudl be enclosed in a link so users can expand the images by clicking on them
+* Images should be enclosed in a link so users can expand the images by clicking on them
 
 ***
 
