@@ -1,6 +1,6 @@
-![Pirate Chain Logo](assets/img/Pirate_Logo_Stacked_WG.svg)
+![Pirate Chain Logo](assets/img/site/featured-image.png)
 
-# Pirate Chain Roadmap
+# Pirate Chain Timeline
 
 This repository is an open-source timeline of the history for the Pirate Chain network. This is open-source, please improve this page by submitting a PR
 
