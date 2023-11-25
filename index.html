@@ -1,0 +1,54 @@
+---
+layout: page
+css-list:
+  - "assets/css/index.css"
+---
+<!-- hero section -->
+<section class="hero-section"
+  style="background-image: url('{{ site.baseurl }}assets/img/site/pirate_map.jpg');">
+  <div class="content">      
+    <img class="logo" alt="Pirate Chain logo" src="{{ site.baseurl }}assets/img/site/Pirate_Logo_Stacked_WG.svg"/>
+    <div>
+      <h1><span class="arrr">Charting the Course</span></h1>
+      <strong>Our Voyage to Fiscal Sovereignty</strong>
+      <p>
+        Discover the milestones we've navigated
+        from inception to horizon.
+      </p>      
+    </div>
+  </div>
+</section>
+
+<section class="map-section">
+  <div class="content"> 
+    <div class="setsail">
+      <h2 class="start-text">Set Sail!</h2>
+      <p class="start-date">Pirate Chain's Journey Begins</p>
+    </div>
+    <div class="timeline">
+      <img src="{{ site.baseurl }}assets/img/site/Pirate_Logo_Ship_Gold_Gradient.svg" class="timeline-marker start-marker" alt="Start Marker">
+
+      {% assign sorted_posts = site.milestones | sort: 'date' %}
+      {% for post in sorted_posts %}
+        <div class="item">
+          <img src="{{ site.baseurl }}assets/img/site/anchor.svg" class="timeline-marker" alt="Timeline Marker">
+          <div class="post {% cycle 'left', 'right' %}">
+            <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
+            <div class="post-content">
+              {{ post.content }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+      <img src="{{ site.baseurl }}assets/img/site/Pirate_Logo_Coin_Gold.svg" class="timeline-marker end-marker" alt="End Marker">
+    </div>
+
+    <div class="website">
+      <a class="btn" href="https://piratechain.com" title="Learn more about Pirate Chain at the official website, PirateChain.com">
+        <span class="button-text">PirateChain.com</span>
+      </a>
+      <p>Come join our adventures!</p>
+    </div>
+  </div>
+</section>
