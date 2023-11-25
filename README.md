@@ -4,25 +4,27 @@
 
 This repository is an open-source timeline of the history for the Pirate Chain network. This is open-source, please improve this page by submitting a PR
 
-This timeline can be accessed at
-### [https://scott-ftf.github.io/pirate-timeline/](https://scott-ftf.github.io/pirate-timeline/)
+live timeline: [https://scott-ftf.github.io/pirate-timeline/](https://scott-ftf.github.io/pirate-timeline/)
 
 ***
 
 ## How to add a new post
-To add a new post, create a `.md` file in the [_milestones](https://github.com/scott-ftf/pirate-timeline/tree/main/_milestones) directory. The file must be formatted in markdown syntax which allows for formatting text, lists, links, image linking, etc.
 
-Each post filename MUST be the date in YYYY-MM-DD format, followed by the Title and .md extension. For example, `2018-08-29-The-Idea.md`
+1. Upload an image to `assets/img/posts/`: [UPLOAD IMAGES](https://github.com/scott-ftf/pirate-timeline/upload/main/assets/img/posts) 
 
-Each file must have the date in the frontmatter. Frontmatter is the data at the top of the page between the three dashes (`---`). The date must be in the YYYY-MM-DD format. While not required, it should be followed with 00:00:00 (HH:MM:SS). The time will not be displayed, but in the case where there are more than one entries on the same day, adding one second to each post will ensure they render in the correct order. 
+2. Create a new markdown file in the `_milestones` directory: [NEW MILESTONE](https://github.com/scott-ftf/pirate-timeline/new/main/_milestones)
 
-Each post should include a H3 title at the top of the content (`###` in markdown)
+3. Enter a filename which _MUST_ be the date in YYYY-MM-DD format, followed by the Title and .md extension. For example, `2018-08-29-The-Title.md`
 
-Images can be hosted anywhere and linked to, however it is recommended to upload the images to `assets/img/posts/` and linking to them there. When linking to an image, it is recommended to put them into a anchor link so they can be opened up larger by the reader.
+4. Enter the post content in markdown syntax. You can click "preview" to see how your content will appear. When satisfied, commit the changes.
+
+5. Once the commit is made, github will automatically rebuild the website, which can take a few minutes.
+
+***
 
 Example post:
 
-[2018-08-29-The-Idea.md](https://raw.githubusercontent.com/scott-ftf/pirate-timeline/main/_milestones/2018-08-29-The-Idea.md)
+filename: [2018-08-29-The-Idea.md](https://raw.githubusercontent.com/scott-ftf/pirate-timeline/main/_milestones/2018-08-29-The-Idea.md)
 ```YAML
 ---
 date: 2018-08-29 00:00:00
@@ -35,6 +37,11 @@ A question gets asked in the ask-jl777 channel in the Komodo Discord, which star
 [![The Idea](assets/img/posts/The-Idea-is-Born-in-KMD-768x516.png)](assets/img/posts/The-Idea-is-Born-in-KMD-768x516.png)
 
 ```
+
+NOTES
+* The date in YYYY-MM-DD format is required in the frontmatter (between the `---`). Adding HH:MM:SS will allow you to sort multiple milestones on the same date by adding 1 second to each post.
+* Each post should start with the title as a H3 (`###`) directly after the frontmatter.
+* Images shoudl be enclosed in a link so users can expand the images by clicking on them
 
 ***
 
