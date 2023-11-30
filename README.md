@@ -10,9 +10,9 @@ live timeline: [https://xkosiusx.github.io/pirate-timeline/](https://xkosiusx.gi
 
 ## How to add a new post
 
-1. Upload an image to `assets/img/posts/`: [UPLOAD IMAGES](https://github.com/xkosiusx/pirate-timeline/upload/main/assets/img/posts) 
+1. Upload an image to `assets/img/posts/`: [UPLOAD IMAGES](https://github.com/xkosiusx/piratechain-timeline/upload/main/assets/img/posts) 
 
-2. Create a new markdown file in the `_milestones` directory: [NEW MILESTONE](https://github.com/xkosiusx/pirate-timeline/new/main/_milestones)
+2. Create a new markdown file in the `_milestones` directory: [NEW MILESTONE](https://github.com/xkosiusx/piratechain-timeline/new/main/_milestones)
 
 3. Enter a filename which _MUST_ be the date in YYYY-MM-DD format, followed by the Title and .md extension. For example, `2018-08-29-The-Title.md`
 
