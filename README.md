@@ -24,7 +24,7 @@ live timeline: [https://xkosiusx.github.io/pirate-timeline/](https://xkosiusx.gi
 
 Example post:
 
-filename: [2018-08-29-The-Idea.md](https://raw.githubusercontent.com/xkosiusx/pirate-timeline/main/_milestones/2018-08-29-The-Idea.md)
+filename: [2018-08-29-The-Idea.md](https://raw.githubusercontent.com/xkosiusx/piratechain-timeline/main/_milestones/2018-08-29-The-Idea.md)
 ```YAML
 ---
 date: 2018-08-29 00:00:00
