@@ -1,9 +1,9 @@
 ---
-date: 2018-08-29 00:00:00
+date: 2023-01-14 01:00:00
 ---
 
-### The Idea
+### wARRR on ETH
 
-A question gets asked in the #ask-jl777 channel in the Komodo Discord, which started the discussion. [[link]](https://discordapp.com/channels/412898016371015680/455851625915875338/484319952849993748)
+Wrapped version of Pirate named “wARRR” is launched on Ethereum. [[link]](https://twitter.com/PirateChain/status/1614986321231060992)
 
-[![The Idea](assets/img/posts/The-Idea-is-Born-in-KMD-768x516.png)](assets/img/posts/The-Idea-is-Born-in-KMD-768x516.png)
+[![wARRR on ETH](assets/img/posts/wARRR-on-ETH.jpg)](assets/img/posts/wARRR-on-ETH.jpg)
