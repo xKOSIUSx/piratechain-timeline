@@ -6,4 +6,4 @@ date: 2023-01-30 01:00:00
 
 A community member develops and releases https://localpiratechain.com/, where users can buy/sell $ARRR from other users with fiat. [[link]](https://twitter.com/LPirateChain/status/1619960693876473858)
 
-[![6th Halving](assets/img/posts/LPC.png)](assets/img/posts/LPC.png)
+[![Local Pirate Chain Launch](assets/img/posts/LPC.png)](assets/img/posts/LPC.png)
