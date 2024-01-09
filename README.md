@@ -4,7 +4,7 @@
 
 This repository is an open-source timeline of the history for the Pirate Chain network. This is open-source, please improve this page by submitting a PR
 
-Live timeline: [https://xkosiusx.github.io/pirate-timeline/](https://xkosiusx.github.io/pirate-timeline/#)
+Live timeline: [https://xkosiusx.github.io/pirate-timeline/#](https://xkosiusx.github.io/pirate-timeline/#)
 
 ***
 
