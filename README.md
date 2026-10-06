@@ -2,48 +2,65 @@
 
 # Pirate Chain Timeline
 
-This repository is an open-source timeline of the history for the Pirate Chain network. This is open-source, please improve this page by submitting a PR
+An open-source timeline of Pirate Chain history. Contributions are welcome via PR.
 
-Live timeline: [https://xkosiusx.github.io/piratechain-timeline/#](https://xkosiusx.github.io/piratechain-timeline/#)
-
-***
+live timeline: [https://xkosiusx.github.io/piratechain-timeline/](https://xkosiusx.github.io/piratechain-timeline/)
 
 ## How to add a new post
 
-1. Upload an image to `assets/img/posts/`: [UPLOAD IMAGES](https://github.com/xkosiusx/piratechain-timeline/upload/main/assets/img/posts) 
+1. Add an image to [`assets/img/posts/`](assets/img/posts/) (**Add file → Upload files** on GitHub).
+2. Create a Markdown file in [`_milestones/`](_milestones/) named `YYYY-MM-DD-Title.md` (**Add file → Create new file** on GitHub).
+3. Use the format below, then preview, commit, and push to `main`. GitHub Pages rebuilds automatically.
 
-2. Create a new markdown file in the `_milestones` directory: [NEW MILESTONE](https://github.com/xkosiusx/piratechain-timeline/new/main/_milestones)
+Example: [2018-08-29-The-Idea.md](_milestones/2018-08-29-The-Idea.md)
 
-3. Enter a filename which _MUST_ be the date in YYYY-MM-DD format, followed by the Title and .md extension. For example, `2018-08-29-The-Title.md`
-
-4. Enter the post content in markdown syntax. You can click "preview" to see how your content will appear. When satisfied, commit the changes.
-
-5. Once the commit is made, github will automatically rebuild the website, which can take a few minutes.
-
-***
-
-Example post:
-
-filename: [2018-08-29-The-Idea.md](https://raw.githubusercontent.com/xkosiusx/piratechain-timeline/main/_milestones/2018-08-29-The-Idea.md)
-```YAML
+```markdown
 ---
 date: 2018-08-29 00:00:00
+title: "The Idea"
+image: The-Idea-is-Born-in-KMD-768x516.png
+links:
+  - https://discordapp.com/channels/412898016371015680/455851625915875338/484319952849993748
+  - https://satindergrewal.medium.com/pirates-of-komodo-platform-cdc991b424df
 ---
 
-### The Idea
-
-A question gets asked in the ask-jl777 channel in the Komodo Discord, which started the discussion. [[link]](https://discordapp.com/channels/412898016371015680/455851625915875338/484319952849993748)
-
-[![The Idea](assets/img/posts/The-Idea-is-Born-in-KMD-768x516.png)](assets/img/posts/The-Idea-is-Born-in-KMD-768x516.png)
-
+A question in Komodo's Discord starts the discussion.
 ```
 
-NOTES
-* The date in YYYY-MM-DD format is required in the frontmatter (between the `---`). Adding HH:MM:SS will allow you to sort multiple milestones on the same date by adding 1 second to each post.
-* Each post should start with the title as a H3 (`###`) directly after the frontmatter.
-* Images should be enclosed in a link so users can expand the images by clicking on them
+Site names/icons and image alt text are automatic. Text beyond four lines gets **Show more**.
+Click a milestone and share its URL. Bookmarks use the date and title, with automatic duplicate suffixes.
+Adjust the time to order posts on the same date.
+[Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
 
-***
+## Run locally
 
-For reference on markdown syntax, please visit 
-[markdown cheet sheet](https://www.markdownguide.org/cheat-sheet/)
+### Install
+
+Requires Ruby 3.4.10. Run from the repository root:
+
+```sh
+gem install bundler -v 4.0.22 --user-install
+bundle config set --local path vendor/bundle
+bundle install
+```
+
+### Run
+
+```sh
+bundle exec jekyll serve --livereload --baseurl ""
+```
+
+Open <http://localhost:4000>. Press Ctrl+C to stop.
+
+## Configure a fork
+
+Update `_config.yml`:
+
+```yaml
+url: "https://YOUR-USERNAME.github.io"
+baseurl: "/YOUR-REPOSITORY"
+repo: "https://github.com/YOUR-USERNAME/YOUR-REPOSITORY"
+```
+
+Use `baseurl: ""` for a site at the domain root. Update the **live timeline** link above.
+Enable **Settings → Pages → Deploy from a branch → main → /(root)**.

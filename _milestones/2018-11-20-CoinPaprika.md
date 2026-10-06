@@ -1,10 +1,9 @@
 ---
 date: 2018-11-20 00:00:00
+title: "CoinPaprika"
+image: "CoinPaprika-ANN.png"
+links:
+  - https://twitter.com/PirateChain/status/1064981385100713984
 ---
 
-### CoinPaprika
-
-CoinPaprika lists Pirate and becomes the first coin tracking website to list ARRR. [[link]](https://twitter.com/PirateChain/status/1064981385100713984)
-
-[![CoinPaprika](assets/img/posts/CoinPaprika-ANN.png)](assets/img/posts/CoinPaprika-ANN.png)
-
+CoinPaprika becomes the first coin-tracking website to list ARRR, making its market data easier to find.

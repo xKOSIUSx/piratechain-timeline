@@ -1,5 +1,24 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# Jekyll output and caches
+/_site*/
+/.sass-cache/
+/.jekyll-cache/
+/.jekyll-metadata
+
+# Local Ruby dependencies and Bundler settings
+/vendor/
+/.bundle/
+
+# Python verification helper caches
+__pycache__/
+*.py[cod]
+
+# Local environment and editor/OS files
+/.aws
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
