@@ -1,10 +1,9 @@
 ---
 date: 2019-10-14 00:00:00
+title: "Binance Info"
+image: "Binance-INFO-Thing.png"
+links:
+  - https://twitter.com/Binance_Info/status/1184680630048542720
 ---
 
-### Binance INFO
-
-Pirate is listed on Binance Info. [[link]](https://twitter.com/Binance_Info/status/1184680630048542720)
-
-[![Binance INFO](assets/img/posts/Binance-INFO-Thing.png)](assets/img/posts/Binance-INFO-Thing.png)
-
+Binance Info adds an ARRR profile, giving Pirate Chain a presence on its cryptocurrency information platform.

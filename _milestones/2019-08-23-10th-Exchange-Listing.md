@@ -1,10 +1,9 @@
 ---
 date: 2019-08-23 00:00:00
+title: "10th Exchange Listing"
+image: "P2PB2B-Exchange.png"
+links:
+  - https://twitter.com/p2pb2b/status/1164804620901736448
 ---
 
-### 10th Exchange Listing
-
-Pirate gets listed on P2PB2B exchange. [[link]](https://twitter.com/p2pb2b/status/1164804620901736448)
-
-[![10th Exchange Listing](assets/img/posts/P2PB2B-Exchange.png)](assets/img/posts/P2PB2B-Exchange.png)
-
+P2PB2B lists ARRR, becoming the tenth exchange to offer trading in Pirate Chain's currency.

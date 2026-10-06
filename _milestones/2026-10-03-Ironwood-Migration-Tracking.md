@@ -1,0 +1,12 @@
+---
+date: 2026-10-03 00:00:01
+# Date marks the start of migration visible in the explorer's chart, after Ironwood activation.
+# The Stats page deployment date is not published. Chart snapshot: October 6, 2026 (UTC).
+# Image source: SVG chart exported from https://explorer.piratechain.com/stats/
+title: "Network Statistics Page"
+image: "Ironwood-Migration-Stats.svg"
+links:
+  - https://explorer.piratechain.com/stats/
+---
+
+ARRR begins moving from Sapling into Ironwood. The explorer's updated Stats page tracks pool balances and migration progress.

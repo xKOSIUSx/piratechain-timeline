@@ -1,10 +1,10 @@
 ---
 date: 2018-09-04 00:00:01
+title: "Unhappy Community"
+image: "Unhappy-Community-768x1452.png"
+links:
+  - https://bitcointalk.org/index.php?topic=4979549.msg45202485#msg45202485
+  - https://satindergrewal.medium.com/pirates-of-komodo-platform-cdc991b424df
 ---
 
-### Unhappy Community
-
-Since grewalsatinder was on holiday, he did not update the Bitcointalk forum thread with all the new updates and happenings on PIRATE project. This led to some arguments and people wanting to restart the chain. To that point, many community members had already been mining PIRATE for about a week, hence why jl777 proposed a giveaway of 250,000 PIRATE, which totaled to around 10% total circulating supply at that date/time. [[link]](https://bitcointalk.org/index.php?topic=4979549.msg45202485#msg45202485)
-
-[![Unhappy Community](assets/img/posts/Unhappy-Community-768x1452.png)](assets/img/posts/Unhappy-Community-768x1452.png)
-
+While grewalsatinder is on holiday, the Bitcointalk announcement thread is not updated with news about Pirate Chain. This leads to arguments and calls to restart the chain. Many community members have already been mining ARRR for about a week, so jl777 proposes a giveaway of 250,000 ARRR, roughly 10% of the circulating supply at the time.
